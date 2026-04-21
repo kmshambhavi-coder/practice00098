@@ -1,2 +1,1 @@
-# practice00098
-practice00098
+# GitSync
