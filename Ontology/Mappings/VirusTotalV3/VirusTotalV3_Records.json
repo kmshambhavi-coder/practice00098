@@ -7,7 +7,7 @@
         "product": "Virustotal",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": "ChangeSourceUnspecified",
+        "changeSource": 0,
         "exampleEventFields": []
     }
 ]
