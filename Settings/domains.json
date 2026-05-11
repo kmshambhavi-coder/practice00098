@@ -1,0 +1,18 @@
+[
+    {
+        "alias": "projects/project/locations/location/instances/instance/soarDomains/2",
+        "id": 2,
+        "domain": "192.60.1.4",
+        "environments": "[\"Default Environment\",\"234567\",\"!@#$%^&*(\",\"#Alpha3456\"]",
+        "creationTimeUnixTimeInMs": 0,
+        "modificationTimeUnixTimeInMs": 0
+    },
+    {
+        "alias": "projects/project/locations/location/instances/instance/soarDomains/1",
+        "id": 1,
+        "domain": "192.60.1.1",
+        "environments": "[\"Default Environment\"]",
+        "creationTimeUnixTimeInMs": 0,
+        "modificationTimeUnixTimeInMs": 0
+    }
+]

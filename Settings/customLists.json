@@ -1,0 +1,16 @@
+[
+    {
+        "id": 2,
+        "name": "projects/project/locations/location/instances/instance/customLists/2",
+        "category": "CL -002",
+        "entityIdentifier": "custom List 002",
+        "environments": "[\"Default Environment\"]"
+    },
+    {
+        "id": 1,
+        "name": "projects/project/locations/location/instances/instance/customLists/1",
+        "category": "CL-001",
+        "entityIdentifier": "custom list 001",
+        "environments": "[\"Default Environment\",\"234567\",\"!@#$%^&*(\",\"#Alpha3456\"]"
+    }
+]

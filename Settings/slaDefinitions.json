@@ -1,0 +1,32 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/2",
+        "id": 2,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Assessment\",\"Triage\",\"manually added 001\",\"manually added 002\"]",
+        "slaPeriod": 34.0,
+        "slaPeriodTimeUnit": "Hours",
+        "criticalSlaPeriod": 30.0,
+        "criticalSlaPeriodTimeUnit": "Hours",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/1",
+        "id": 1,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "SpecificAlerts",
+        "slaTypeValue": "[\"Data Exfiltration\",\"Access Disabled Accounts\",\"Simulated case 001\"]",
+        "slaPeriod": 2.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 1.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment",
+            "234567",
+            "!@#$%^&*(",
+            "#Alpha3456"
+        ]
+    }
+]

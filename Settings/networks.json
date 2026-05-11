@@ -1,0 +1,18 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/soarNetworks/2",
+        "id": 2,
+        "displayName": "192.1.0.11/12",
+        "address": "192.1.0.11/12",
+        "environmentsJson": "[\"Default Environment\"]",
+        "priority": 1
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/soarNetworks/1",
+        "id": 1,
+        "displayName": "192.1.0.11/11",
+        "address": "192.1.0.11/11",
+        "environmentsJson": "[\"Default Environment\",\"234567\",\"!@#$%^&*(\",\"#Alpha3456\"]",
+        "priority": 4
+    }
+]
