@@ -3,7 +3,9 @@
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
-        "Visual Family": {},
+        "Visual Family": {
+            "AV_ds5n": "Readme"
+        },
         "Playbook": {},
         "Connector": {
             "Google Chronicle - Chronicle Alerts Connector": "Readme"
