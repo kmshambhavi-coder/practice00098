@@ -4,7 +4,8 @@
         "Integration": {},
         "Mappings": {
             "null": "readme",
-            "GoogleChronicle": "readme"
+            "GoogleChronicle": "readme",
+            "null": "readme"
         },
         "Visual Family": {
             "AV_ds5n": "Readme"
