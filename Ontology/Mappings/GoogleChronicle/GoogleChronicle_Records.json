@@ -7,7 +7,7 @@
         "product": null,
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -18,7 +18,7 @@
         "product": "IOC",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -29,7 +29,7 @@
         "product": "EXTERNAL",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -40,7 +40,7 @@
         "product": "EXTERNAL",
         "eventName": "EMAIL_TRANSACTION",
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -51,7 +51,7 @@
         "product": "RULE",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -62,7 +62,7 @@
         "product": "RULE",
         "eventName": "EMAIL_TRANSACTION",
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -73,7 +73,7 @@
         "product": "SCCE",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -84,7 +84,7 @@
         "product": "RISK_SCORE_RULE",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -95,7 +95,7 @@
         "product": "RISK_SCORE_RULE",
         "eventName": "ASSET",
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     },
     {
@@ -106,7 +106,7 @@
         "product": "RISK_SCORE_RULE",
         "eventName": "DOMAIN_NAME",
         "mappingStatus": null,
-        "changeSource": 0,
+        "changeSource": "ChangeSourceUnspecified",
         "exampleEventFields": []
     }
 ]

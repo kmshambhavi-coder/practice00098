@@ -5,7 +5,9 @@
         "Mappings": {},
         "Visual Family": {},
         "Playbook": {},
-        "Connector": {},
+        "Connector": {
+            "Google Chronicle - Chronicle Alerts Connector": "Readme"
+        },
         "Job": {}
     },
     "settings": {
