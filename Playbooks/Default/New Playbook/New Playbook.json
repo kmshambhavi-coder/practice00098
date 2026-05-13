@@ -3,11 +3,11 @@
     "identifier": "47d77b56-6d3e-44ec-8ff3-0bb9b721a853",
     "version": "1",
     "isEnabled": false,
-    "isDebugMode": false,
+    "isDebugMode": true,
     "name": "New Playbook",
     "creator": "9e6d69ea-9aec-46a4-9b91-cbd2d9307cdb",
     "modifiedBy": "9e6d69ea-9aec-46a4-9b91-cbd2d9307cdb",
-    "priority": 2,
+    "priority": 1,
     "description": "test again",
     "executionScope": 1,
     "environments": [
@@ -17,7 +17,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "47d77b56-6d3e-44ec-8ff3-0bb9b721a853",
     "creationTimeUnixTimeInMs": 1778665618286,
-    "modificationTimeUnixTimeInMs": 1778665919362,
+    "modificationTimeUnixTimeInMs": 1778666113052,
     "trigger": {
         "id": 0,
         "identifier": "a3fd9b30-580c-46aa-bbeb-d260d802298a",
@@ -215,8 +215,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778665919244,
-            "modificationTimeUnixTimeInMs": 1778665919362,
+            "creationTimeUnixTimeInMs": 1778666112926,
+            "modificationTimeUnixTimeInMs": 1778666113052,
             "additionalProperties": {}
         },
         {
@@ -398,8 +398,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778665919244,
-            "modificationTimeUnixTimeInMs": 1778665919362,
+            "creationTimeUnixTimeInMs": 1778666112926,
+            "modificationTimeUnixTimeInMs": 1778666113052,
             "additionalProperties": {}
         },
         {
@@ -581,8 +581,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778665919244,
-            "modificationTimeUnixTimeInMs": 1778665919362,
+            "creationTimeUnixTimeInMs": 1778666112927,
+            "modificationTimeUnixTimeInMs": 1778666113052,
             "additionalProperties": {}
         }
     ],

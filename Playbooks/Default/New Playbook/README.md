@@ -9,9 +9,9 @@ test again
 
 **Type:** Playbook
 
-**Priority:** 2
+**Priority:** 1
 
-**Playbook Simulator:** False
+**Playbook Simulator:** True
 
 
 ### Playbook Trigger
