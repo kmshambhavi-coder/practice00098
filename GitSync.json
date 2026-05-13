@@ -10,7 +10,8 @@
             "AV_ds5n": "Readme"
         },
         "Playbook": {
-            "New Playbook": "addon"
+            "New Playbook": "addon",
+            "New Playbook 1": "addon"
         },
         "Connector": {
             "Google Chronicle - Chronicle Alerts Connector": "Readme"
