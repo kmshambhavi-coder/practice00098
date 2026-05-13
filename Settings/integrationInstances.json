@@ -1,0 +1,188 @@
+[
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "PaloAltoCortexXDR",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Api Root",
+                    "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 47,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6c0fcc81-676c-4e71-986e-e2f07abd8c2b"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "id": 48,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6c0fcc81-676c-4e71-986e-e2f07abd8c2b"
+                },
+                {
+                    "propertyName": "Api Key ID",
+                    "value": "56",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 1,
+                    "isMandatory": true,
+                    "id": 49,
+                    "propertyDisplayName": "Api Key ID",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6c0fcc81-676c-4e71-986e-e2f07abd8c2b"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 50,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6c0fcc81-676c-4e71-986e-e2f07abd8c2b"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 52,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6c0fcc81-676c-4e71-986e-e2f07abd8c2b"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "GoogleSecOpsAiAgents",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System All Environments Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "True",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 39,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection.",
+                    "integrationIdentifier": "GoogleSecOpsAiAgents",
+                    "integrationInstance": "a30bab3d-1082-4aec-a166-40df2d2a7f7d"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 40,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "GoogleSecOpsAiAgents",
+                    "integrationInstance": "a30bab3d-1082-4aec-a166-40df2d2a7f7d"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "PaloAltoCortexXDR",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "PaloAltoCortexXDR_1",
+            "settings": [
+                {
+                    "propertyName": "Api Root",
+                    "value": "https://api-gcptesting.xdr.us.paloaltonetworks.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 65,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6e6759e6-01c2-413f-811e-c37a9d4d07bc"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "id": 66,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6e6759e6-01c2-413f-811e-c37a9d4d07bc"
+                },
+                {
+                    "propertyName": "Api Key ID",
+                    "value": "56",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 1,
+                    "isMandatory": true,
+                    "id": 67,
+                    "propertyDisplayName": "Api Key ID",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6e6759e6-01c2-413f-811e-c37a9d4d07bc"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 68,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6e6759e6-01c2-413f-811e-c37a9d4d07bc"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 70,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "6e6759e6-01c2-413f-811e-c37a9d4d07bc"
+                }
+            ]
+        }
+    }
+]
