@@ -9,7 +9,9 @@
         "Visual Family": {
             "AV_ds5n": "Readme"
         },
-        "Playbook": {},
+        "Playbook": {
+            "New Playbook": "addon"
+        },
         "Connector": {
             "Google Chronicle - Chronicle Alerts Connector": "Readme"
         },
