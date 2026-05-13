@@ -3,3 +3,4 @@
 |----|------|-----------|
 |New Playbook|Default|test again|
 |New Playbook 1|Default|test again|
+|New Playbook changed|Default|test again|

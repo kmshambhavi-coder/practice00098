@@ -11,7 +11,8 @@
         },
         "Playbook": {
             "New Playbook": "addon",
-            "New Playbook 1": "addon"
+            "New Playbook 1": "addon",
+            "New Playbook changed": "addon"
         },
         "Connector": {
             "Google Chronicle - Chronicle Alerts Connector": "Readme"
