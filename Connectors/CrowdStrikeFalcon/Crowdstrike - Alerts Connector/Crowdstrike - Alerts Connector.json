@@ -1,9 +1,9 @@
 {
-    "name": "projects/project/locations/location/instances/instance/integrations/CrowdStrikeFalcon/connectors/7/connectorInstances/5",
-    "id": 5,
+    "name": "projects/project/locations/location/instances/instance/integrations/CrowdStrikeFalcon/connectors/7/connectorInstances/6",
+    "id": 6,
     "custom": false,
     "documentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/crowdstrike-falcon#alerts-connector",
-    "identifier": "Crowdstrike - Alerts Connector_2390cefc-885d-4035-9e88-33652f9fbda2",
+    "identifier": "Crowdstrike - Alerts Connector_8ff35091-5207-4563-8b23-d14b7ddf63e5",
     "connectorDefinitionName": "Crowdstrike - Alerts Connector",
     "integration": "CrowdStrikeFalcon",
     "remote": false,
@@ -233,6 +233,10 @@
     "description": "Pull alerts from Crowdstrike. Dynamic List works with the \"display_name\" parameter. Note: To fetch identity protection detections use \"Identity Protection Detections Connector\".",
     "intervalSeconds": 10,
     "version": 1,
+    "allowList": [
+        "dynamic list 11",
+        "dynamic list 12#"
+    ],
     "productFieldName": "Product Name",
     "eventFieldName": "type",
     "timeoutSeconds": 180,
