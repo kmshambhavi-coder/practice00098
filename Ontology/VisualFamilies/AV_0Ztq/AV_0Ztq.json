@@ -18,26 +18,41 @@
                 "fourthDestination": "DestinationHostName",
                 "visualFamily": "AV_0Ztq",
                 "id": 0,
-                "creationTimeUnixTimeInMs": 1778830951027,
-                "modificationTimeUnixTimeInMs": 1778830951027
+                "creationTimeUnixTimeInMs": 1778831417558,
+                "modificationTimeUnixTimeInMs": 1778831417558
+            },
+            {
+                "primarySource": "SourceUserName",
+                "secondarySource": "SourceProcessName",
+                "thirdSource": "SourceMacAddress",
+                "fourthSource": "SourceDomain",
+                "relationType": "Linked",
+                "primaryDestination": "SourceHostName",
+                "secondaryDestination": "SourceAddress",
+                "thirdDestination": "DestinationHostName",
+                "fourthDestination": "DestinationAddress",
+                "visualFamily": "AV_0Ztq",
+                "id": 0,
+                "creationTimeUnixTimeInMs": 1778831417558,
+                "modificationTimeUnixTimeInMs": 1778831417558
             },
             {
                 "primarySource": "SourceHostName",
-                "secondarySource": "",
+                "secondarySource": "SourceMacAddress",
                 "thirdSource": "",
                 "fourthSource": "",
                 "relationType": "Linked",
                 "primaryDestination": "SourceHostName",
-                "secondaryDestination": "",
+                "secondaryDestination": "SourceMacAddress",
                 "thirdDestination": "",
                 "fourthDestination": "",
                 "visualFamily": "AV_0Ztq",
                 "id": 0,
-                "creationTimeUnixTimeInMs": 1778830951027,
-                "modificationTimeUnixTimeInMs": 1778830951027
+                "creationTimeUnixTimeInMs": 1778831417558,
+                "modificationTimeUnixTimeInMs": 1778831417558
             }
         ],
         "creationTimeUnixTimeInMs": 1778830951050,
-        "modificationTimeUnixTimeInMs": 1778830951050
+        "modificationTimeUnixTimeInMs": 1778831417526
     }
 }

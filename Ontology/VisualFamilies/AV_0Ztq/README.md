@@ -11,4 +11,5 @@ manully addedVF 001
 |Primary Source|Secondary Source|Third Source|Forth Source|Type|Primary Destination|Secondary Destination|Third Destination|Forth Destination|
 |--------------|----------------|------------|------------|----|-------------------|---------------------|-----------------|-----------------|
 |SourceHostName|SourceAddress|SourceHostName||Type|SourceUserName|SourceUserName|SourceProcessName||
-|SourceHostName||||Linked|SourceHostName||||
+|SourceUserName|SourceProcessName|SourceMacAddress||Linked|SourceHostName|SourceAddress|DestinationHostName||
+|SourceHostName|SourceMacAddress|||Linked|SourceHostName|SourceMacAddress|||
