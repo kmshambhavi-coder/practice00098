@@ -10,6 +10,5 @@
 ## Visual Families
 |Name|Description|
 |----|-----------|
-|AV_0Ztq|manully addedVF 001|
-|DoSOrDDoS_I8cB|Newly Added visual family|
+|AV_001|manually added|
 
