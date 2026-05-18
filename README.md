@@ -11,6 +11,7 @@
 |----|-----------|
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook||
+|updated New Block|Updated block An embedded workflow that can receive inputs and return an output.|
 
 
 ## Jobs

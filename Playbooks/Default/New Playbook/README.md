@@ -5,7 +5,7 @@
 
 **Enabled:** True
 
-**Version:** 1
+**Version:** 0
 
 **Type:** Playbook
 
@@ -36,4 +36,4 @@
 ### Involved Blocks
 |Name|Description|
 |----|-----------|
-|New Block|An embedded workflow that can receive inputs and return an output.|
+|updated New Block|Updated block An embedded workflow that can receive inputs and return an output.|
