@@ -9,8 +9,9 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|New defaultPlaybook|default|
-|New Playbook|test playbook|
+|Custom  Playbook|Test Description|
+|custom Block one|An embedded workflow that can receive inputs and return an output.|
+|custom Block two|An embedded workflow that can receive inputs and return an output.|
 
 
 ## Visual Families
