@@ -547,9 +547,9 @@
             "isAutomatic": true,
             "isSkippable": false,
             "instanceName": "New Block_1",
-            "name": "New Block",
+            "name": "updated New Block",
             "integration": "Siemplify",
-            "description": "An embedded workflow that can receive inputs and return an output.",
+            "description": "updated An embedded workflow that can receive inputs and return an output.",
             "actionProvider": "Flow",
             "actionName": "NestedAction",
             "type": 5,
@@ -675,7 +675,7 @@
             "logsExplorerUrl": null,
             "id": 0,
             "creationTimeUnixTimeInMs": 1779096974389,
-            "modificationTimeUnixTimeInMs": 1779096974389,
+            "modificationTimeUnixTimeInMs": 1779098211614,
             "additionalProperties": {}
         }
     ],
