@@ -9,9 +9,8 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|fisrt Block|An embedded workflow that can receive inputs and return an output.|
+|New defaultPlaybook|default|
 |New Playbook||
-|fisrt Block|An embedded workflow that can receive inputs and return an output.|
 
 
 ## Jobs
