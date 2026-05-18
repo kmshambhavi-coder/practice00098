@@ -1,11 +1,13 @@
 # New Playbook
-
+new 
+test
+description
 
 
 
 **Enabled:** True
 
-**Version:** 0
+**Version:** 1
 
 **Type:** Playbook
 
@@ -16,14 +18,14 @@
 
 
 ### Playbook Trigger
-**Trigger Type:** Alert Trigger Value
+**Trigger Type:** All
 
 **Conditions Operator:** And
 
 ##### Conditions
 |Key|Operator|Value|
 |---|--------|-----|
-||Equals|fd|
+||Equals||
 
 
 
@@ -36,4 +38,5 @@
 ### Involved Blocks
 |Name|Description|
 |----|-----------|
-|updated New Block|Updated block An embedded workflow that can receive inputs and return an output.|
+|second Block|An embedded workflow that can receive inputs and return an output.|
+|New Block|An embedded workflow that can receive inputs and return an output.|
