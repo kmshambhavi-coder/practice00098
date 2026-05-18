@@ -10,7 +10,7 @@
 |Name|Description|
 |----|-----------|
 |New defaultPlaybook|default|
-|New Playbook||
+|New Playbook|test playbook|
 
 
 ## Jobs
