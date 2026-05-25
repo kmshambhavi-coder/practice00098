@@ -1,5 +1,5 @@
 # New Playbook
-
+test
 
 
 
@@ -31,6 +31,7 @@
 |Siemplify_Case Tag_1|Add given tag to the case the current alert is grouped to|Siemplify|Case Tag|
 |Siemplify_Change Alert Priority_1|Automatically change the alert priority to the given input. Note: This action is compatible only with Siemplify version 5.6 and higher.|Siemplify|Change Alert Priority|
 |GitSync_Ping_1|Test connectivity to GitSync|GitSync|Ping|
+|Siemplify_Add General Insight_1|Add a general insight configurable message to the case|Siemplify|Add General Insight|
 |Siemplify_Case Comment_1|Add a comment to the case the current alert has been grouped to|Siemplify|Case Comment|
 
 ### Involved Blocks
