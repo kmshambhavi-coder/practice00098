@@ -8,7 +8,9 @@
             "New Block": "TEst",
             "New Playbook": "TEst"
         },
-        "Connector": {},
+        "Connector": {
+            "changedCrowdstrike - Alerts Connector": "readme test"
+        },
         "Job": {},
         "Block": {}
     },
