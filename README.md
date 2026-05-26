@@ -27,8 +27,8 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|11Crowdstrike - Incidents Connector|Deprecated. Pull incident and related behaviors from Crowdstrike. Dynamic List works with the “incident_type” parameter.|True|
-|12Crowdstrike Falcon Streaming Events Connector|Crowdstrike Falcon Streaming Events Connector|True|
+|Crowdstrike - Detections Connector|Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.|True|
+|changedCrowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|True|
 
 
 ## Playbooks
