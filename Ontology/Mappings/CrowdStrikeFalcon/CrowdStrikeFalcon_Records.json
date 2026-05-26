@@ -2,10 +2,10 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
+        "familyName": "Default",
+        "familyId": 0,
         "product": "Falcon",
         "eventName": null,
-        "familyName": "Default",
-        "familyId": 0,
         "mappingStatus": null,
         "changeSource": 0,
         "exampleEventFields": []
@@ -13,10 +13,10 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
+        "familyName": "Default",
+        "familyId": 0,
         "product": "CrowdStrike Falcon",
         "eventName": null,
-        "familyName": "Default",
-        "familyId": 0,
         "mappingStatus": null,
         "changeSource": 0,
         "exampleEventFields": []
@@ -24,10 +24,10 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
+        "familyName": "Default",
+        "familyId": 0,
         "product": "Identity Protection",
         "eventName": null,
-        "familyName": "Default",
-        "familyId": 0,
         "mappingStatus": null,
         "changeSource": 0,
         "exampleEventFields": []
@@ -35,10 +35,10 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
+        "familyName": "Default",
+        "familyId": 0,
         "product": "Incidents",
         "eventName": "Behavior",
-        "familyName": "Default",
-        "familyId": 0,
         "mappingStatus": null,
         "changeSource": 0,
         "exampleEventFields": []
@@ -46,10 +46,10 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
+        "familyName": "Default",
+        "familyId": 0,
         "product": "Incidents",
         "eventName": "Incident Data",
-        "familyName": "Default",
-        "familyId": 0,
         "mappingStatus": null,
         "changeSource": 0,
         "exampleEventFields": []
@@ -57,10 +57,10 @@
     {
         "id": 0,
         "source": "CrowdStrikeFalcon",
-        "product": "Alerts",
-        "eventName": null,
         "familyName": "Default",
         "familyId": 0,
+        "product": "Alerts",
+        "eventName": null,
         "mappingStatus": null,
         "changeSource": 0,
         "exampleEventFields": []

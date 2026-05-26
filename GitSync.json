@@ -1,5 +1,5 @@
 {
-    "system_version": "6.1.6.161",
+    "system_version": "6.1.6.171",
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
@@ -9,7 +9,8 @@
             "New Playbook": "TEst"
         },
         "Connector": {
-            "changedCrowdstrike - Alerts Connector": "readme test"
+            "changedCrowdstrike - Alerts Connector": "readme test",
+            "10Crowdstrike Falcon Streaming Events Connector": "Connector readme updated"
         },
         "Job": {},
         "Block": {}

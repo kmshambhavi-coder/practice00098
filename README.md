@@ -27,7 +27,7 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|changedCrowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|True|
+|10Crowdstrike Falcon Streaming Events Connector|Crowdstrike Falcon Streaming Events Connector|True|
 
 
 ## Playbooks
