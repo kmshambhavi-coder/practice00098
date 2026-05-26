@@ -4,7 +4,10 @@
         "Integration": {},
         "Mappings": {},
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "New Block": "TEst",
+            "New Playbook": "TEst"
+        },
         "Connector": {},
         "Job": {},
         "Block": {}
