@@ -10,7 +10,9 @@
         },
         "Connector": {
             "changedCrowdstrike - Alerts Connector": "readme test",
-            "10Crowdstrike Falcon Streaming Events Connector": "Connector readme updated"
+            "10Crowdstrike Falcon Streaming Events Connector": "Connector readme updated",
+            "11Crowdstrike - Incidents Connector": "Connector readme updated",
+            "12Crowdstrike Falcon Streaming Events Connector": "Connector readme updated"
         },
         "Job": {},
         "Block": {}

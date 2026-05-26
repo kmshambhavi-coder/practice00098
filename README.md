@@ -27,7 +27,8 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|10Crowdstrike Falcon Streaming Events Connector|Crowdstrike Falcon Streaming Events Connector|True|
+|11Crowdstrike - Incidents Connector|Deprecated. Pull incident and related behaviors from Crowdstrike. Dynamic List works with the “incident_type” parameter.|True|
+|12Crowdstrike Falcon Streaming Events Connector|Crowdstrike Falcon Streaming Events Connector|True|
 
 
 ## Playbooks
