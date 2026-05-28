@@ -37,3 +37,11 @@
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook|test|
 
+
+## Visual Families
+|Name|Description|
+|----|-----------|
+|AV_00058|AV_00058|
+|Copy of AV_00058|AV_00058|
+|Copy of Copy of AV_00058|AV_00058|
+

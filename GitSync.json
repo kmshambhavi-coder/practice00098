@@ -3,7 +3,11 @@
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
-        "Visual Family": {},
+        "Visual Family": {
+            "AV_00058": "Readmen Custom family",
+            "Copy of AV_00058": "Readmen Custom family",
+            "Copy of Copy of AV_00058": "Readmen Custom family"
+        },
         "Playbook": {
             "New Block": "TEst",
             "New Playbook": "TEst"
