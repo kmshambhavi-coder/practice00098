@@ -15,7 +15,8 @@
         },
         "Playbook": {
             "New Block": "TEst",
-            "New Playbook": "TEst"
+            "New Playbook": "TEst",
+            "Copy of New Playbook": "TEst"
         },
         "Connector": {
             "changedCrowdstrike - Alerts Connector": "readme test",
