@@ -3,7 +3,8 @@
     "readme_addons": {
         "Integration": {},
         "Mappings": {
-            " GoogleChronicle": "Readme mappings"
+            " GoogleChronicle": "Readme mappings",
+            "ssdfghjkl;": "Readme mappings"
         },
         "Visual Family": {
             "AV_00058": "Readmen Custom family",
