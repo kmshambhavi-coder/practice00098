@@ -1,0 +1,286 @@
+{
+    "IsAvailableForCommunity": false,
+    "Identifier": "GoogleGKE",
+    "ShouldInstalledInSystem": false,
+    "Version": 9.0,
+    "DisplayName": "Google Kubernetes Engine",
+    "Description": "Google Kubernetes Engine (GKE) provides a managed environment for deploying, managing, and scaling your containerized applications using Google infrastructure. The GKE environment consists of multiple machines (specifically, Compute Engine instances) grouped together to form a cluster.",
+    "ImageBase64": "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",
+    "SvgImage": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"currentColor\"><path d=\"M12.8,9.28l2.27,1.37-2.54,1.51L10,10.65l2.27-1.37V7.22L8,9.78v5.11l1.72-1V11.16l2.54,1.51v3.05L10,14.35l-1.72,1,4.26,2.56,4.26-2.56-1.72-1L12.8,15.72V12.65l2.53-1.5v2.72l1.73,1V9.78L12.8,7.22Zm10,2.53-4.56-8.1A1.38,1.38,0,0,0,17.07,3H7.93a1.38,1.38,0,0,0-1.19.71l-4.56,8.1a1.41,1.41,0,0,0,0,1.38l4.59,8.1A1.42,1.42,0,0,0,8,22h9.12a1.38,1.38,0,0,0,1.19-.71l4.56-8.1A1.41,1.41,0,0,0,22.82,11.81ZM18,15.45a.61.61,0,0,1-.08.3.51.51,0,0,1-.2.21l-4.94,3a.53.53,0,0,1-.56,0L7.28,16a.58.58,0,0,1-.2-.21A.54.54,0,0,1,7,15.47V9.55a.73.73,0,0,1,.07-.3A.6.6,0,0,1,7.28,9l4.94-3a.53.53,0,0,1,.56,0l4.94,3a.55.55,0,0,1,.28.51Z\" fill-rule=\"evenodd\"/></svg>",
+    "IsCustom": false,
+    "PythonVersion": 3,
+    "IntegrationProperties": [
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "API Root",
+            "PropertyDescription": "API root of the Google Kubernetes Engine instance.",
+            "PropertyDisplayName": "API Root",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "https://container.googleapis.com",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Account Type",
+            "PropertyDescription": "Type of the Google Cloud account. Located at the \u201ctype\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Account Type",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "service_account",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Project ID",
+            "PropertyDescription": "Project ID of the Google Cloud account. Located at the \u201cproject_id\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Project ID",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Private Key ID",
+            "PropertyDescription": "Private Key ID of the Google Cloud account. Located at the \u201cprivate_key_id\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Private Key ID",
+            "PropertyType": 3,
+            "IsMandatory": false,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Private Key",
+            "PropertyDescription": "Private Key of the Google Cloud account. Located at the \u201cprivate_key\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Private Key",
+            "PropertyType": 3,
+            "IsMandatory": false,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Client Email",
+            "PropertyDescription": "Client Email of the Google Cloud account. Located at the \u201cclient_email\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Client Email",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Client ID",
+            "PropertyDescription": "Client ID of the Google Cloud account. Located at the \u201cclient_id\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Client ID",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Auth URI",
+            "PropertyDescription": "Auth URI of the Google Cloud account. Located at the \u201cauth_uri\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Auth URI",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "https://accounts.google.com/o/oauth2/auth",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Token URI",
+            "PropertyDescription": "Token URI of the Google Cloud account. Located at the \u201ctoken_uri\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Token URI",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "https://oauth2.googleapis.com/token",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Auth Provider X509 URL",
+            "PropertyDescription": "Auth Provider X509 URL of the Google Cloud account. Located at the \u201cauth_provider_x509_cert_url\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Auth Provider X509 URL",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "https://www.googleapis.com/oauth2/v1/certs",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Client X509 URL",
+            "PropertyDescription": "Client X509 URL of the Google Cloud account. Located at the \u201cclient_x509_cert_url\u201d parameter in the authentication JSON file. You need to copy the value and put it in this integration configuration parameter.",
+            "PropertyDisplayName": "Client X509 URL",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Service Account Json File Content",
+            "PropertyDescription": "Optional: Instead of specifying private key id, private key and other parameters, specify here the full JSON content of the service account file. Other connection parameters will be ignored if this parameter is provided.",
+            "PropertyDisplayName": "Service Account Json File Content",
+            "PropertyType": 3,
+            "IsMandatory": false,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Workload Identity Email",
+            "PropertyDescription": "A Service Account Client Email to replace the usage of \"Service Account Json File Content\", which will be used for Impersonation. Note that the SOAR Service Account must be granted the \"Service Account Token Creator\" IAM role on the User Service Account.",
+            "PropertyDisplayName": "Workload Identity Email",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Location ID",
+            "PropertyDescription": "ID of the location that should be used in Google Kubernetes Engine integration. Defaults to \"europe-central2-a\".",
+            "PropertyDisplayName": "Location ID",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "europe-central2-a",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        },
+        {
+            "IntegrationIdentifier": "GoogleGKE",
+            "PropertyName": "Verify SSL",
+            "PropertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Kubernetes Engine service is valid.",
+            "PropertyDisplayName": "Verify SSL",
+            "PropertyType": 0,
+            "IsMandatory": false,
+            "Value": "true",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061083406,
+            "ModificationTimeUnixTimeInMs": 1780061083406
+        }
+    ],
+    "IntegrationSupportedActions": [
+        {
+            "Name": "Set Node Pool Management",
+            "Description": "Create an operation to set node pool management configuration for the Google Kubernetes Engine cluster. Action is async. Note that action is not working on Siemplify entities. Additionally, if the target cluster is already going under configuration change, new configuration changes will not be accepted until current configuration changes finish.",
+            "Id": 705,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "Set Node Count",
+            "Description": "Create an operation to set node count for the Google Kubernetes Engine cluster node pool. Action is async. Note that action is not working on Siemplify entities. Additionally, if the target cluster is already going under configuration change, new configuration changes will not be accepted until current configuration changes finish.",
+            "Id": 706,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "Set Node Autoscaling",
+            "Description": "Create an operation to set node pool autoscaling configuration for the Google Kubernetes Engine cluster. Action is async. Note that action is not working on Siemplify entities. Additionally, if the target cluster is already going under configuration change, new configuration changes will not be accepted until current configuration changes finish.",
+            "Id": 707,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "Set Cluster Labels",
+            "Description": "Create an operation to set labels for the Google Kubernetes Engine cluster. Action is async. Action appends new labels to any existing cluster labels. Note that action is not working on Siemplify entities. Additionally, if the target cluster is already going under configuration change, new configuration changes will not be accepted until current configuration changes finish.",
+            "Id": 708,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "Set Cluster Addons",
+            "Description": "Create an operation to set addons for the Google Kubernetes Engine cluster. Action is async. Note that action is not working on Siemplify entities. Additionally, if the target cluster is already going under configuration change, new configuration changes will not be accepted until current configuration changes finish.",
+            "Id": 709,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "Ping",
+            "Description": "Test connectivity to the Google Kubernetes Engine service with parameters provided at the integration configuration page on the Marketplace tab.",
+            "Id": 710,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "List Operations",
+            "Description": "List Google Kubernetes Engine operations for a location based on the specified search criteria. Note that action is not working on Siemplify entities. Additionally, filtering logic is working based on the operation name field.",
+            "Id": 711,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "List Node Pools",
+            "Description": "List node pools for the Google Kubernetes Engine cluster based on the specified search criteria. Note that action is not working on Siemplify entities. Additionally, filtering logic is working based on the node pool name field.",
+            "Id": 712,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "List Clusters",
+            "Description": "List Google Kubernetes Engine clusters based on the specified search criteria. Note that action is not working on Siemplify entities. Additionally, filtering logic is working based on the cluster name field.",
+            "Id": 713,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        },
+        {
+            "Name": "Get Operation Status",
+            "Description": "Get the Google Kubernetes Engine operation status. Action is async. Note that action is not working on Siemplify entities.",
+            "Id": 714,
+            "CreationTimeUnixTimeInMs": 1780061083424,
+            "ModificationTimeUnixTimeInMs": 1780061083424
+        }
+    ],
+    "Categories": [
+        "IT & Infrastructure",
+        "Cloud",
+        "Google"
+    ],
+    "HasConnectors": false,
+    "DocumentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/google-gke",
+    "IsCertified": false,
+    "UploaderFullName": null,
+    "PublishComment": null,
+    "UploaderEmail": null,
+    "UploaderImageBase64": null,
+    "UploaderProfileLink": null,
+    "MinimumSystemVersion": 0.0,
+    "ProductionIntegrationIdentifier": null,
+    "Type": 0,
+    "Internal": false,
+    "Id": 0,
+    "CreationTimeUnixTimeInMs": 1780061083406,
+    "ModificationTimeUnixTimeInMs": 1780061083406
+}

@@ -1,0 +1,144 @@
+{
+    "IsAvailableForCommunity": false,
+    "Identifier": "GoogleCloudApi",
+    "ShouldInstalledInSystem": false,
+    "Version": 9.0,
+    "DisplayName": "Google Cloud API",
+    "Description": "Google Cloud API integration was designed for you to execute Google Cloud API without the need of writing any code.",
+    "ImageBase64": "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",
+    "SvgImage": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 23 21\"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><path d=\"M10.76,10.03v-1.75h1.42v1.75h-1.42Z\"/><path d=\"M5.48,10.03v-1.75h1.42v1.75h-1.42Z\"/><path class=\"cls-1\" d=\"M22.8,9.73L17.8.78c-.27-.47-.76-.78-1.3-.78H6.49c-.54,0-1.03.31-1.3.78L.2,9.73c-.27.47-.27,1.06,0,1.53l5.02,8.95c.27.47.76.75,1.3.78h9.99c.54,0,1.03-.31,1.3-.78l4.99-8.95c.27-.47.27-1.06,0-1.53ZM8.31,14h-1.42v-2.62h-1.42v2.62h-1.48v-5.66c0-.64.77-1.28,1.48-1.28h1.35c.77,0,1.48.64,1.48,1.28v5.66ZM13.66,10.09c0,.64-.77,1.28-1.48,1.28h-1.42v2.62h-1.42v-5.72c0-.64.71-1.28,1.48-1.28h1.35c.77,0,1.48.7,1.48,1.34v1.75ZM19,8.34h-1.42v4.38h1.42v1.28h-4.38v-1.28h1.48v-4.38h-1.48v-1.28h4.38v1.28Z\"/></svg>",
+    "IsCustom": false,
+    "PythonVersion": 3,
+    "IntegrationProperties": [
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Test URL",
+            "PropertyDescription": "Test URL that will be used to validate the authentication to Google Cloud API. Uses a GET request.",
+            "PropertyDisplayName": "Test URL",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Service Account Json File Content",
+            "PropertyDescription": "Service Account JSON Key that will be used for authentication. Either this parameter or \"Workload Identity Email\" should be provided. Note: \"Service Account JSON Key\" authentication has priority.",
+            "PropertyDisplayName": "Service Account Json File Content",
+            "PropertyType": 3,
+            "IsMandatory": false,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Organization ID",
+            "PropertyDescription": "ID of the organization that you want to use inside the integration. You can provide {{org_id}} inside your actions to take the value from this parameter.",
+            "PropertyDisplayName": "Organization ID",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Project ID",
+            "PropertyDescription": "ID of the project that you want to use inside the integration. You can provide {{project_id}} inside your actions to take the value from this parameter.",
+            "PropertyDisplayName": "Project ID",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Quota Project ID",
+            "PropertyDescription": "ID of the quota project that will be attached to all of the API requests done by the integration.",
+            "PropertyDisplayName": "Quota Project ID",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Workload Identity Email",
+            "PropertyDescription": "Workload identity email that should be used for authentication. Either this parameter or \"Service Account JSON Key\" should be provided. Note: \"Service Account JSON Key\" authentication has priority.",
+            "PropertyDisplayName": "Workload Identity Email",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "OAuth Scopes",
+            "PropertyDescription": "Comma-separated list of OAuth scopes necessary to execute Google Cloud API requests.",
+            "PropertyDisplayName": "OAuth Scopes",
+            "PropertyType": 2,
+            "IsMandatory": false,
+            "Value": "https://www.googleapis.com/auth/cloud-platform",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        },
+        {
+            "IntegrationIdentifier": "GoogleCloudApi",
+            "PropertyName": "Verify SSL",
+            "PropertyDescription": "If enabled, verify the SSL certificate for all of the connections done by integration.",
+            "PropertyDisplayName": "Verify SSL",
+            "PropertyType": 0,
+            "IsMandatory": false,
+            "Value": "true",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780061068151,
+            "ModificationTimeUnixTimeInMs": 1780061068151
+        }
+    ],
+    "IntegrationSupportedActions": [
+        {
+            "Name": "Ping",
+            "Description": "Test connectivity.",
+            "Id": 702,
+            "CreationTimeUnixTimeInMs": 1780061068179,
+            "ModificationTimeUnixTimeInMs": 1780061068179
+        },
+        {
+            "Name": "Execute HTTP Request",
+            "Description": "Execute HTTP request.",
+            "Id": 703,
+            "CreationTimeUnixTimeInMs": 1780061068179,
+            "ModificationTimeUnixTimeInMs": 1780061068179
+        }
+    ],
+    "Categories": [
+        "IT & Infrastructure"
+    ],
+    "HasConnectors": false,
+    "DocumentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/google-cloud-api",
+    "IsCertified": false,
+    "UploaderFullName": null,
+    "PublishComment": null,
+    "UploaderEmail": null,
+    "UploaderImageBase64": null,
+    "UploaderProfileLink": null,
+    "MinimumSystemVersion": 0.0,
+    "ProductionIntegrationIdentifier": null,
+    "Type": 0,
+    "Internal": false,
+    "Id": 0,
+    "CreationTimeUnixTimeInMs": 1780061068151,
+    "ModificationTimeUnixTimeInMs": 1780061068151
+}

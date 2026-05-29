@@ -1,0 +1,162 @@
+{
+    "IsAvailableForCommunity": false,
+    "Identifier": "Intezer",
+    "ShouldInstalledInSystem": false,
+    "Version": 14.0,
+    "DisplayName": "Intezer",
+    "Description": "Intezer Integration for Google SecOps SOAR enables security teams to automate the analysis, detection, and response of threats by integrating Intezer's technology into their Google SecOps workflows",
+    "ImageBase64": "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",
+    "SvgImage": "<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 19 19\"><defs><style>.cls-1 {stroke-width: 0px;}</style></defs><path class=\"cls-1\" d=\"m8.3,3.96h0s0-.04,0-.06c-.09-.05-.18-.1-.28-.14-1.12-.49-2.25-.98-3.37-1.48-.15-.06-.26-.05-.4.02-1.07.47-2.14.94-3.21,1.41-.15.07-.3.14-.46.22.05.04.07.06.09.07,1.2.53,2.41,1.07,3.61,1.59.11.05.27.04.38-.01.87-.37,1.72-.75,2.58-1.12.35-.16.71-.32,1.06-.47Zm.46,10.29c-.83-.36-1.65-.74-2.48-1.11-.42-.19-.83-.37-1.29-.57,0,.13-.02.21-.02.29,0,1.35,0,2.71,0,4.06,0,.22.08.33.28.42,1.12.49,2.23,1,3.35,1.49.12.05.24.1.39.16.01-.11.02-.18.02-.25,0-1.38,0-2.76,0-4.14,0-.19-.08-.28-.24-.36ZM3.93,6.49c-.97-.42-1.94-.86-2.91-1.28-.34-.15-.68-.28-1.02-.41v4.6c.06.03.11.07.17.1,1.07.47,2.13.94,3.2,1.41.23.1.46.2.72.31.01-.09.02-.15.02-.21,0-1.41,0-2.82,0-4.24,0-.15-.06-.22-.19-.28Zm5.45-3.1c.08.04.21.02.3-.02,1.2-.52,2.39-1.04,3.58-1.56.04-.02.08-.05.14-.09-.05-.03-.07-.05-.09-.06-.72-.32-1.45-.63-2.17-.95-.53-.24-1.07-.48-1.6-.71h-.04c-1.02.45-2.04.9-3.06,1.35-.27.12-.53.24-.82.37.07.05.1.07.13.09,1.21.53,2.42,1.06,3.63,1.58ZM3.98,12.1c-1.27-.57-2.54-1.13-3.81-1.68-.05-.02-.12-.02-.17-.03v4.6c1.31.58,2.63,1.16,3.94,1.74.14.06.18.01.18-.12,0-1.43,0-2.86,0-4.3,0-.07-.07-.18-.13-.21Zm4.75-3.47c-1.05-.46-2.1-.93-3.14-1.4-.18-.08-.37-.16-.59-.26h0c0,.13-.02.21-.02.29,0,1.35,0,2.71,0,4.06,0,.22.08.33.28.42.95.41,1.89.84,2.83,1.26.29.13.58.26.91.4.01-.13.02-.22.02-.3,0-1.35,0-2.69,0-4.04,0-.23-.08-.34-.28-.43Zm9.69-4.66h0s0-.04,0-.06c-.09-.05-.19-.09-.28-.14-1.14-.5-2.27-1-3.41-1.49-.1-.04-.25-.03-.36.01-1.09.47-2.18.95-3.27,1.42-.14.06-.27.13-.44.2.05.04.08.06.11.08,1.2.53,2.41,1.06,3.62,1.58.1.04.27.03.38-.02.6-.25,1.19-.52,1.79-.78.62-.27,1.24-.54,1.86-.82Zm-5,2.17c-.08-.05-.11-.07-.15-.09-1.2-.53-2.4-1.05-3.6-1.57-.09-.04-.22-.04-.3,0-1.02.44-2.04.89-3.06,1.34-.22.1-.44.19-.66.29h0s0,.04,0,.06c.05.03.1.05.16.08,1.16.51,2.32,1.01,3.48,1.53.16.07.28.07.44,0,.98-.44,1.97-.86,2.95-1.29.24-.1.47-.21.73-.33Zm5.58-1.11c0-.07-.02-.13-.03-.22-.09.03-.14.04-.2.07-1.21.53-2.41,1.07-3.63,1.6-.17.08-.24.17-.24.36,0,1.38,0,2.76,0,4.14,0,.07,0,.14.01.23.06-.01.09-.01.11-.02,1.27-.56,2.54-1.12,3.81-1.68.13-.06.15-.15.15-.27,0-1.4,0-2.8,0-4.2Zm-4.07,6.17h0s0,0,0,0h0Zm-.91,1.39h0c-.09.03-.14.05-.19.07-1.19.54-2.37,1.07-3.56,1.6-.16.07-.22.16-.22.33,0,1.39,0,2.77,0,4.16,0,.07.01.14.02.24.17-.07.3-.12.43-.18,1.09-.49,2.17-.99,3.27-1.47.19-.08.26-.19.25-.39,0-1.37,0-2.75,0-4.12,0-.07,0-.14-.01-.24Zm-3.94.79c.09-.03.15-.04.2-.07,1.19-.54,2.38-1.08,3.57-1.61.15-.07.18-.17.18-.31,0-1.39,0-2.77,0-4.16,0-.07,0-.14-.02-.24-.13.05-.24.09-.34.13-1.12.51-2.25,1.02-3.37,1.52-.17.08-.24.17-.24.36,0,1.39,0,2.77,0,4.16,0,.07.01.14.02.22Z\"/></svg>",
+    "IsCustom": false,
+    "PythonVersion": 3,
+    "IntegrationProperties": [
+        {
+            "IntegrationIdentifier": "Intezer",
+            "PropertyName": "API Root",
+            "PropertyDescription": "API root of the Intezer service.",
+            "PropertyDisplayName": "API Root",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": "https://analyze.intezer.com/api/v2-0/",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780060856125,
+            "ModificationTimeUnixTimeInMs": 1780060856125
+        },
+        {
+            "IntegrationIdentifier": "Intezer",
+            "PropertyName": "API key",
+            "PropertyDescription": "Intezer API key",
+            "PropertyDisplayName": "API key",
+            "PropertyType": 3,
+            "IsMandatory": true,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780060856125,
+            "ModificationTimeUnixTimeInMs": 1780060856125
+        },
+        {
+            "IntegrationIdentifier": "Intezer",
+            "PropertyName": "Verify SSL",
+            "PropertyDescription": "If enabled, verify the SSL certificate for the connection to the Intezer service is valid.",
+            "PropertyDisplayName": "Verify SSL",
+            "PropertyType": 0,
+            "IsMandatory": false,
+            "Value": "true",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780060856125,
+            "ModificationTimeUnixTimeInMs": 1780060856125
+        }
+    ],
+    "IntegrationSupportedActions": [
+        {
+            "Name": "Unset Index File",
+            "Description": "Unset file's indexing.",
+            "Id": 535,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Submit Suspicious Email",
+            "Description": "Submit a suspicious phishing email in a raw format (.MSG or .EML) to Intezer for processing",
+            "Id": 536,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Submit Hash",
+            "Description": "Submit a hash for analysis.",
+            "Id": 537,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Submit File",
+            "Description": "Submit a file for analysis.",
+            "Id": 538,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Submit Alert",
+            "Description": "Submit a new alert including the raw alert information to Intezer for processing.",
+            "Id": 539,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Ping",
+            "Description": "Test connectivity to the Intezer with parameters provided at the integration configuration page on the Marketplace tab.",
+            "Id": 540,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Index File",
+            "Description": "Index the file's genes into the organizational database.",
+            "Id": 541,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Get URL Report",
+            "Description": "Get a URL analysis report based on a URL analysis ID.",
+            "Id": 542,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Get File Report",
+            "Description": "Get a file analysis report based on an analysis ID or a file hash.",
+            "Id": 543,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Get Alert",
+            "Description": "Get an ingested alert triage and response information using alert ID.",
+            "Id": 544,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Detonate URL",
+            "Description": "Analyze a suspicious URL with Intezer.",
+            "Id": 545,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Detonate Hash",
+            "Description": "Analyze a file hash (SHA1, SHA256, or MD5) on Intezer Analyze.",
+            "Id": 546,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        },
+        {
+            "Name": "Detonate File",
+            "Description": "Analyze a file from Splunk vault with Intezer.",
+            "Id": 547,
+            "CreationTimeUnixTimeInMs": 1780060856170,
+            "ModificationTimeUnixTimeInMs": 1780060856170
+        }
+    ],
+    "Categories": [
+        "Security",
+        "Threat Intelligence"
+    ],
+    "HasConnectors": false,
+    "DocumentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/intezer",
+    "IsCertified": false,
+    "UploaderFullName": null,
+    "PublishComment": null,
+    "UploaderEmail": null,
+    "UploaderImageBase64": null,
+    "UploaderProfileLink": null,
+    "MinimumSystemVersion": 0.0,
+    "ProductionIntegrationIdentifier": null,
+    "Type": 0,
+    "Internal": false,
+    "Id": 0,
+    "CreationTimeUnixTimeInMs": 1780060856125,
+    "ModificationTimeUnixTimeInMs": 1780060856125
+}
