@@ -27,8 +27,8 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|Crowdstrike - Detections Connector|Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.|True|
-|changedCrowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|True|
+|Crowdstrike - Detections Connector|Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.|False|
+|changedCrowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|False|
 
 
 ## Playbooks
@@ -36,12 +36,4 @@
 |----|-----------|
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook|test|
-
-
-## Visual Families
-|Name|Description|
-|----|-----------|
-|AV_00058|AV_00058|
-|Copy of AV_00058|AV_00058|
-|Copy of Copy of AV_00058|AV_00058|
 

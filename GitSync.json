@@ -2,7 +2,9 @@
     "system_version": "6.1.6.161",
     "readme_addons": {
         "Integration": {},
-        "Mappings": {},
+        "Mappings": {
+            " GoogleChronicle": "Readme mappings"
+        },
         "Visual Family": {
             "AV_00058": "Readmen Custom family",
             "Copy of AV_00058": "Readmen Custom family",
