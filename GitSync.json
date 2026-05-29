@@ -5,7 +5,8 @@
         "Mappings": {
             " GoogleChronicle": "Readme mappings",
             "ssdfghjkl;": "Readme mappings",
-            "GoogleChronicle,  CrowdStrikeFalcon, Arcsight": "Readme mappings"
+            "GoogleChronicle,  CrowdStrikeFalcon, Arcsight": "Readme mappings",
+            "PaloAltoCortexXDR": "Readme mappings"
         },
         "Visual Family": {
             "AV_00058": "Readmen Custom family",
