@@ -60,6 +60,7 @@
 |Functions|A set of math and data manipulation actions created for Google SecOps Community to power up playbook capabilities.|
 |GOQR|An integration for generating and reading QR codes using the qrserver.com API.|
 |GSuite|G Suite is a brand of cloud computing, productivity and collaboration tools, software and products developed by Google.|
+|GitSync|Sync Google SecOps integrations, playbooks, and settings with a GitHub, BitBucket or GitLab instance|
 |Google Safe Browsing|Safe Browsing is a Google service that lets client applications check URLs against Google's constantly updated lists of unsafe web resources. Examples of unsafe web resources are social engineering sites (phishing and deceptive sites) and sites that host malware or unwanted software. Any URL found on a Safe Browsing list is considered unsafe.Getting start - https://developers.google.com/safe-browsing/v4/get-started|
 |Google Chronicle|Google SecOps enables you to examine the aggregated security information for your enterprise going back for months or longer. Use Google SecOps to search across all of the domains accessed from within your enterprise. To enable the Google API client to communicate with the Backstory API you will need Google Developer Service Account Credential, https://developers.google.com/identity/protocols/OAuth2#serviceaccount.|
 |Google Cloud API|Google Cloud API integration was designed for you to execute Google Cloud API without the need of writing any code.|

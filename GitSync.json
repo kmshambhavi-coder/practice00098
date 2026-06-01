@@ -1,7 +1,9 @@
 {
     "system_version": "6.1.6.161",
     "readme_addons": {
-        "Integration": {},
+        "Integration": {
+            "GitSync": "Readme"
+        },
         "Mappings": {
             " GoogleChronicle": "Readme mappings",
             "ssdfghjkl;": "Readme mappings",
