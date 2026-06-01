@@ -25,7 +25,9 @@
             "12Crowdstrike Falcon Streaming Events Connector": "Connector readme updated",
             "Crowdstrike - Detections Connector": "readme test"
         },
-        "Job": {},
+        "Job": {
+            "Google Chronicle Alerts Creator Job": "Readmen"
+        },
         "Block": {}
     },
     "settings": {
