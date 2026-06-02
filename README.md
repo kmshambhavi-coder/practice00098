@@ -107,14 +107,6 @@
 |New Playbook|test|
 
 
-## Visual Families
-|Name|Description|
-|----|-----------|
-|AV_00058|AV_00058|
-|Copy of AV_00058|AV_00058|
-|Copy of Copy of AV_00058|AV_00058|
-
-
 ## Jobs
 |Name|Description|
 |----|-----------|

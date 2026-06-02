@@ -1,5 +1,5 @@
 {
-    "system_version": "6.1.6.161",
+    "system_version": "6.1.6.173",
     "readme_addons": {
         "Integration": {
             "GitSync": "Readme"
@@ -11,7 +11,8 @@
             "PaloAltoCortexXDR": "Readme mappings",
             "Ranmod mappinhg": "Readme mappings",
             "GoogleChronicle,  CrowdStrikeFalcon": "Readme mappings",
-            "Exchange": "Readme mappings"
+            "Exchange": "Readme mappings",
+            "FireEyeEX": "Readme"
         },
         "Visual Family": {
             "AV_00058": "Readmen Custom family",
