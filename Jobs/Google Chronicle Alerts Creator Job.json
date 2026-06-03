@@ -28,6 +28,13 @@
             "value": "https://backstory.googleapis.com"
         },
         {
+            "id": 127,
+            "isMandatory": false,
+            "name": "Verify SSL",
+            "type": 0,
+            "value": "true"
+        },
+        {
             "id": 125,
             "isMandatory": false,
             "name": "User's Service Account",
@@ -40,13 +47,6 @@
             "name": "Workload Identity Email",
             "type": 3,
             "value": "***************"
-        },
-        {
-            "id": 127,
-            "isMandatory": false,
-            "name": "Verify SSL",
-            "type": 0,
-            "value": "true"
         }
     ],
     "runIntervalInSeconds": 3600,
