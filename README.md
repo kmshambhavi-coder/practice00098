@@ -106,10 +106,3 @@
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook|test|
 
-
-## Jobs
-|Name|Description|
-|----|-----------|
-|CA Close Ticket In CA For Closed Case|Sync closure of the tickets at the CA Desk Manager with Siemplify cases closure.|
-|Google Chronicle Alerts Creator Job|This job will sync new SOAR alerts with Chronicle SIEM.Note: This job is only supported from Chronicle SOAR version 6.2.30 and higher.|
-
