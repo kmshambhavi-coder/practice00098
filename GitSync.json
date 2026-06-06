@@ -33,7 +33,8 @@
         },
         "Job": {
             "Google Chronicle Alerts Creator Job": "readme",
-            "CA Close Ticket In CA For Closed Case": "readme"
+            "CA Close Ticket In CA For Closed Case": "readme",
+            "Cases Collector": "readme"
         },
         "Block": {}
     },

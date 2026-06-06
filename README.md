@@ -106,3 +106,9 @@
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook|test|
 
+
+## Jobs
+|Name|Description|
+|----|-----------|
+|Cases Collector|Collect cases and connector logs from Publisher.|
+
