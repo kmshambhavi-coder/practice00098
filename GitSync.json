@@ -9,7 +9,9 @@
         "Job": {
             "1Actions Monitor": "readme",
             "Google Chronicle Sync Job": "readme",
-            "Sync Incidents": "readme"
+            "Sync Incidents": "readme",
+            "Google Chronicle Alerts Creator Job": "readme",
+            "Refresh Token Renewal Job": "readme"
         }
     },
     "settings": {

@@ -1,6 +1,6 @@
 {
     "lastRunStatus": 1,
-    "lastRunTime": 1780743477046,
+    "lastRunTime": 1780754279698,
     "uniqueIdentifier": "2e19cba9-c81a-4dbb-94e7-f468bc9ec80f",
     "id": 0,
     "jobDefinitionId": 0,
@@ -65,7 +65,7 @@
     ],
     "runIntervalInSeconds": 10800,
     "creationTime": "2026-06-04T13:57:15.292Z",
-    "lastModificationTime": "2026-06-06T13:53:40.541Z",
+    "lastModificationTime": "2026-06-06T13:57:59.726Z",
     "isSystemJob": false,
     "jobDefinitionName": "Sync Incidents",
     "agentIdentifier": "",
