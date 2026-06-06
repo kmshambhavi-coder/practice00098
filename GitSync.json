@@ -7,7 +7,9 @@
         "Playbook": {},
         "Connector": {},
         "Job": {
-            "1Actions Monitor": "readme"
+            "1Actions Monitor": "readme",
+            "Google Chronicle Sync Job": "readme",
+            "Sync Incidents": "readme"
         }
     },
     "settings": {
