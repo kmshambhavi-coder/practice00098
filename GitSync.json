@@ -6,7 +6,9 @@
         "Visual Family": {},
         "Playbook": {},
         "Connector": {},
-        "Job": {}
+        "Job": {
+            "1Actions Monitor": "readme"
+        }
     },
     "settings": {
         "update_root_readme": true
