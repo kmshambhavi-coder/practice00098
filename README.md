@@ -97,6 +97,11 @@
 |----|-----------|------------|
 |Crowdstrike - Detections Connector|Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that are supported by the API of Crowdstrike. For the details, please refer to the documentation portal.|False|
 |changedCrowdstrike - Alerts Connector|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|False|
+|Exchange EML Connector||False|
+|Exchange Mail Connector|Exchange Mail Connector|False|
+|Exchange Mail Connector v2|Exchange Mail Connector v2|False|
+|FireEye EX - Alerts Connector|FireEye EX - Alerts Connector.|True|
+|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|True|
 
 
 ## Playbooks
