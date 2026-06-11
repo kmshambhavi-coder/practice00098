@@ -1,5 +1,5 @@
 {
-    "system_version": "6.1.6.174",
+    "system_version": "6.1.6.161",
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
@@ -12,7 +12,8 @@
             "Sync Incidents": "readme",
             "Google Chronicle Alerts Creator Job": "readme",
             "Refresh Token Renewal Job": "readme"
-        }
+        },
+        "Block": {}
     },
     "settings": {
         "update_root_readme": true
