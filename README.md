@@ -22,7 +22,6 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|AWS EC2 Enrichment|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook||
 |block only|An embedded workflow that can receive inputs and return an output.|
