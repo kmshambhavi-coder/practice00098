@@ -7,7 +7,8 @@
         "Playbook": {
             "New Block": "Readme addon",
             "New Playbook": "Readme addon",
-            "block only": "Readme addon"
+            "block only": "Readme addon",
+            "AWS EC2 Enrichment": "Readme addon"
         },
         "Connector": {},
         "Job": {}
