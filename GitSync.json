@@ -1,0 +1,17 @@
+{
+    "system_version": "6.1.6.174",
+    "readme_addons": {
+        "Integration": {},
+        "Mappings": {},
+        "Visual Family": {},
+        "Playbook": {
+            "New Block": "Readme addon",
+            "New Playbook": "Readme addon"
+        },
+        "Connector": {},
+        "Job": {}
+    },
+    "settings": {
+        "update_root_readme": true
+    }
+}
