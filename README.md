@@ -22,7 +22,6 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|Copy of New Playbook|test|
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook||
 
