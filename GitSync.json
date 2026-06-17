@@ -6,7 +6,8 @@
         "Visual Family": {},
         "Playbook": {
             "New Block": "Readme addon",
-            "New Playbook": "Readme addon"
+            "New Playbook": "Readme addon",
+            "block only": "Readme addon"
         },
         "Connector": {},
         "Job": {}
