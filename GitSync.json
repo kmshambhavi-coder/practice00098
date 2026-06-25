@@ -6,7 +6,9 @@
         "Visual Family": {},
         "Playbook": {},
         "Connector": {},
-        "Job": {}
+        "Job": {
+            "Google Chronicle Sync Job": "upgraded test"
+        }
     },
     "settings": {
         "update_root_readme": true
