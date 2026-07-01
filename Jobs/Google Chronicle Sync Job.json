@@ -28,20 +28,6 @@
             "value": "https://backstory.googleapis.com"
         },
         {
-            "id": 654,
-            "isMandatory": false,
-            "name": "User's Service Account",
-            "type": 3,
-            "value": "***************"
-        },
-        {
-            "id": 655,
-            "isMandatory": false,
-            "name": "Workload Identity Email",
-            "type": 3,
-            "value": "***************"
-        },
-        {
             "id": 656,
             "isMandatory": false,
             "name": "Max Hours Backwards",
@@ -54,6 +40,20 @@
             "name": "Verify SSL",
             "type": 0,
             "value": "true"
+        },
+        {
+            "id": 654,
+            "isMandatory": false,
+            "name": "User's Service Account",
+            "type": 3,
+            "value": "***************"
+        },
+        {
+            "id": 655,
+            "isMandatory": false,
+            "name": "Workload Identity Email",
+            "type": 3,
+            "value": "***************"
         }
     ],
     "runIntervalInSeconds": 86400,
