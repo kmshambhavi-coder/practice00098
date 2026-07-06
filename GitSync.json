@@ -5,7 +5,9 @@
         "Mappings": {},
         "Visual Family": {},
         "Playbook": {},
-        "Connector": {},
+        "Connector": {
+            "Microsoft Graph Mail Connector": "test readme"
+        },
         "Job": {
             "Google Chronicle Sync Job": "upgraded test"
         }
