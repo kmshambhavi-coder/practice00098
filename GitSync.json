@@ -6,7 +6,8 @@
         "Visual Family": {},
         "Playbook": {},
         "Connector": {
-            "Microsoft Graph Mail Connector": "test readme"
+            "Microsoft Graph Mail Connector": "test readme",
+            "Google Chronicle - Chronicle Alerts Connector": "test readme"
         },
         "Job": {
             "Google Chronicle Sync Job": "upgraded test"
