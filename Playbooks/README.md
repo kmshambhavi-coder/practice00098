@@ -1,3 +1,0 @@
-# Playbooks
-|Name|Folder|Description|
-|----|------|-----------|
