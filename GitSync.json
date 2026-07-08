@@ -1,10 +1,12 @@
 {
-    "system_version": "6.1.6.174",
+    "system_version": "6.1.6.178",
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "New Playbook": "test"
+        },
         "Connector": {
             "Microsoft Graph Mail Connector": "test readme",
             "Google Chronicle - Chronicle Alerts Connector": "test readme"
