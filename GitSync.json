@@ -12,7 +12,8 @@
             "Google Chronicle - Chronicle Alerts Connector": "test readme"
         },
         "Job": {
-            "Google Chronicle Sync Job": "upgraded test"
+            "Google Chronicle Sync Job": "test",
+            "Google Chronicle Alerts Creator Job": "test"
         }
     },
     "settings": {
