@@ -4,7 +4,8 @@
         "Integration": {},
         "Mappings": {},
         "Visual Family": {
-            "Copy of OS": "Copy of ActiveDirectory"
+            "Copy of OS": "Copy of ActiveDirectory",
+            "Copy of ActiveDirectory": "test visual family"
         },
         "Playbook": {},
         "Connector": {
