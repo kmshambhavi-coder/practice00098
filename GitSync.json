@@ -1,9 +1,11 @@
 {
-    "system_version": "6.1.6.174",
+    "system_version": "6.1.6.178",
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
-        "Visual Family": {},
+        "Visual Family": {
+            "Copy of OS": "test visual family"
+        },
         "Playbook": {},
         "Connector": {
             "Microsoft Graph Mail Connector": "test readme",
