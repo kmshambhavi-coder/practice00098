@@ -3,7 +3,9 @@
     "readme_addons": {
         "Integration": {},
         "Mappings": {},
-        "Visual Family": {},
+        "Visual Family": {
+            "Copy of OS": "test visual family"
+        },
         "Playbook": {
             "New Playbook": "test"
         },
