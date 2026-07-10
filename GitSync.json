@@ -10,7 +10,7 @@
         "Playbook": {},
         "Connector": {
             "Microsoft Graph Mail Connector": "test readme",
-            "Google Chronicle - Chronicle Alerts Connector": "test readme"
+            "Google Chronicle - Chronicle Alerts Connector": "test"
         },
         "Job": {
             "Google Chronicle Sync Job": "upgraded test"
