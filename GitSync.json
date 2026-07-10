@@ -7,7 +7,9 @@
             "Copy of OS": "Copy of ActiveDirectory",
             "Copy of ActiveDirectory": "test visual family"
         },
-        "Playbook": {},
+        "Playbook": {
+            "Crowdstrike Falcon Containment": "test"
+        },
         "Connector": {
             "Microsoft Graph Mail Connector": "test readme",
             "Google Chronicle - Chronicle Alerts Connector": "test"
