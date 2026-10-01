@@ -6,7 +6,9 @@
         },
         "Mappings": {},
         "Visual Family": {},
-        "Playbook": {},
+        "Playbook": {
+            "New Playbook": "test readme"
+        },
         "Connector": {},
         "Job": {}
     },
