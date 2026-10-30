@@ -1,0 +1,12 @@
+{
+    "name": "newmanager",
+    "id": 0,
+    "displayName": "newmanager",
+    "author": "a0f65427-3d9e-456b-9504-a721c5d7c86e",
+    "custom": true,
+    "integration": "UrlScanIo",
+    "description": "",
+    "script": "class CustomManager(object):\n    def __init__(self):\n        pass\n        \n    def method_a(self):\n        pass\n    ",
+    "Name": "newmanager",
+    "DisplayName": "newmanager"
+}
