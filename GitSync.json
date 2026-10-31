@@ -1,0 +1,17 @@
+{
+    "system_version": "6.999.1.751",
+    "readme_addons": {
+        "Integration": {
+            "MicrosoftGraphMailDelegated": "InthiswehaveaddedonlytheDUPE"
+        },
+        "Mappings": {},
+        "Visual Family": {},
+        "Playbook": {},
+        "Connector": {},
+        "Job": {},
+        "Block": {}
+    },
+    "settings": {
+        "update_root_readme": true
+    }
+}
