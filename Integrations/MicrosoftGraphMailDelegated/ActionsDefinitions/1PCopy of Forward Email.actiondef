@@ -1,0 +1,137 @@
+{
+    "name": "1PCopy of Forward Email",
+    "id": 0,
+    "author": "7adc3045-aaf8-4892-a42d-11743cbe91c6",
+    "displayName": "1PCopy of Forward Email",
+    "custom": true,
+    "hasJsonResult": true,
+    "integration": "MicrosoftGraphMailDelegated",
+    "actionType": 1,
+    "description": "Use the Forward Email action to forward emails that include previous threads. With the appropriate permissions, this action can send emails from a mailbox different than the one specified in the integration configuration. This action doesn't run on Google SecOps entities.",
+    "script": "from __future__ import annotations\n\nfrom typing import NoReturn\nfrom collections.abc import MutableMapping, MutableSequence\n\nfrom TIPCommon.base.action import Action\nfrom TIPCommon.extraction import extract_action_param\nfrom TIPCommon.transformation import convert_list_to_comma_string, string_to_multi_value\n\nimport action_init\nimport constants\nfrom datamodels import MicrosoftGraphEmail, MicrosoftGraphFolder\nimport exceptions\nimport utils\nimport MicrosoftGraphMailDelegatedManager as api_manager\n\n\nclass ForwardEmailAction(Action[api_manager.ApiManager]):\n\n    def __init__(self) -> None:\n        super().__init__(constants.FORWARD_EMAIL_SCRIPT_NAME)\n        self.output_message = \"\"\n        self.error_output_message = (\n            f'Error executing action \"{constants.FORWARD_EMAIL_SCRIPT_NAME}\".'\n        )\n        self.result_value = True\n        self.json_results = {}\n\n    def _init_api_clients(self) -> api_manager.ApiManager:\n        return action_init.create_api_client(self.soar_action)\n\n    def _extract_action_parameters(self) -> None:\n        self.params.send_from = extract_action_param(\n            self.soar_action,\n            param_name=\"Send From\",\n            default_value=constants.DEFAULT_MAILBOX,\n            is_mandatory=True,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.email_id = extract_action_param(\n            self.soar_action,\n            param_name=\"Mail ID\",\n            is_mandatory=True,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.send_to = extract_action_param(\n            self.soar_action,\n            param_name=\"Send to\",\n            is_mandatory=True,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.send_to = string_to_multi_value(\n            self.params.send_to,\n            only_unique=True,\n        )\n        self.params.subject = extract_action_param(\n            self.soar_action,\n            param_name=\"Subject\",\n            is_mandatory=True,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.folder_name = extract_action_param(\n            self.soar_action,\n            param_name=\"Folder Name\",\n            default_value=constants.DEFAULT_FOLDER_NAME,\n            is_mandatory=False,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.attachments_paths = extract_action_param(\n            self.soar_action,\n            param_name=\"Attachments Paths\",\n            is_mandatory=False,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.attachments_paths = string_to_multi_value(\n            self.params.attachments_paths,\n            only_unique=True,\n        )\n        self.params.mail_content = extract_action_param(\n            self.soar_action,\n            param_name=\"Mail Content\",\n            is_mandatory=True,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.cc = extract_action_param(\n            self.soar_action,\n            param_name=\"CC\",\n            is_mandatory=False,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.cc = string_to_multi_value(self.params.cc, only_unique=True)\n        self.params.bcc = extract_action_param(\n            self.soar_action,\n            param_name=\"BCC\",\n            is_mandatory=False,\n            input_type=str,\n            print_value=True,\n        )\n        self.params.attachment_location = extract_action_param(\n            self.soar_action,\n            param_name=\"Attachment Location\",\n            default_value=\"GCP Bucket\",\n            is_mandatory=True,\n            print_value=True,\n        )\n        self.params.bcc = string_to_multi_value(self.params.bcc, only_unique=True)\n\n    def _validate_params(self) -> None:\n        invalid_paths: MutableSequence[str] = []\n        invalid_paths = [\n            file_path\n            for file_path in self.params.attachments_paths\n            if not utils.validate_file(\n                chronicle_soar=self.soar_action,\n                file_identifier=file_path,\n                file_location=self.params.attachment_location,\n            )\n        ]\n\n        if invalid_paths:\n            invalid_paths = convert_list_to_comma_string(invalid_paths, delimiter=\", \")\n            error_message = (\n                \"The action failed to run because the specified attachments were not \"\n                f\"found: {invalid_paths}\"\n            )\n            raise exceptions.InvalidAttachmentPathException(error_message)\n\n    def _perform_action(self, _) -> None:\n        self._set_mailbox()\n        mailbox_result = utils.get_mailboxes_result(\n            manager=self.api_client,\n            mailboxes=[self.params.send_from],\n            folder_name=self.params.folder_name,\n        )\n        self._validate_mailbox_result(mailbox_result=mailbox_result)\n        email = self._validate_email_id(folder=mailbox_result.valid_mailboxes[0])\n        forward_email = self._forward_email(email)\n        sent_folder = self._get_sent_folder()\n        forwarded_email = _get_forwarded_draft_email(\n            manager=self.api_client,\n            folder=sent_folder,\n            email=forward_email,\n            timeout_in_ms=self.soar_action.execution_deadline_unix_time_ms,\n        )\n        self._set_action_result(forwarded_email)\n\n    def _set_mailbox(self) -> None:\n        self.params.send_from = utils.validate_mailbox(\n            manager=self.api_client,\n            mailbox=self.params.send_from,\n            default_mailbox=self.api_client.mail_address,\n        )\n\n    def _validate_mailbox_result(self, mailbox_result: utils.MailboxResult) -> None:\n        if mailbox_result.invalid_mailboxes:\n            raise exceptions.MailboxNotFoundException(\n                f'The provided mailbox \"{self.params.send_from}\" was not found.'\n            )\n        if mailbox_result.invalid_folder_mailboxes:\n            raise exceptions.FolderNotFoundException(\n                f'The provided folder name \"{self.params.folder_name}\" was not found.'\n            )\n\n    def _validate_email_id(self, folder: MicrosoftGraphFolder) -> MicrosoftGraphEmail:\n        try:\n            return self.api_client.get_mail_details(\n                folder=folder,\n                email_id=self.params.email_id,\n            )\n\n        except exceptions.MicrosoftGraphMailManagerError as error:\n            raise exceptions.InvalidParameterException(\n                f\"The provided mail ID {self.params.email_id} was not found.\"\n            ) from error\n\n    def _forward_email(self, email: MicrosoftGraphEmail) -> MicrosoftGraphEmail:\n        return self.api_client.forward_email(\n            send_from=self.params.send_from,\n            email_id=email.id,\n            subject=self.params.subject,\n            send_to=self.params.send_to,\n            mail_content=self.params.mail_content,\n            cc=self.params.cc,\n            bcc=self.params.bcc,\n            attachments_data=self._get_attachment_data(),\n        )\n\n    def _get_attachment_data(self) -> MutableSequence[MutableMapping[str, str]]:\n        return [\n            utils.load_attachment(\n                chronicle_soar=self.soar_action,\n                attachment_path=attachment_path,\n                attachment_location=self.params.attachment_location,\n            )\n            for attachment_path in self.params.attachments_paths\n        ]\n\n    def _get_sent_folder(self) -> MicrosoftGraphFolder:\n        return self.api_client.get_folder_by_name(\n            folder_name=constants.DEFAULT_SENT_FOLDER_NAME,\n            mail_address=self.params.send_from,\n        )\n\n    def _set_action_result(self, email: MicrosoftGraphEmail) -> None:\n        email.cleanup_not_required_keys()\n        self.json_results = email.to_json()\n        self.output_message = (\n            f\"The email with the mail ID {self.params.email_id} was forwarded \"\n            \"successfully.\"\n        )\n\n\ndef _get_forwarded_draft_email(\n    manager: api_manager.ApiManager,\n    folder: MicrosoftGraphFolder,\n    email: MicrosoftGraphEmail,\n    timeout_in_ms: int,\n) -> MicrosoftGraphEmail:\n    return utils.get_sent_draft_email(\n        manager=manager,\n        folder=folder,\n        email=email,\n        timeout_in_ms=timeout_in_ms,\n    )\n\n\ndef main() -> NoReturn:\n    action = ForwardEmailAction()\n    action.run()\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "enabled": true,
+    "async": false,
+    "scriptResultName": "is_success",
+    "timeoutSeconds": 600,
+    "asyncPollingIntervalSeconds": 3600,
+    "asyncTotalTimeoutSeconds": 86400,
+    "defaultResultValue": "",
+    "aiGenerated": false,
+    "dynamicResults": [
+        {
+            "resultName": "JsonResult",
+            "resultExample": "{\"id\": \"xxxxx\", \"createdDateTime\": \"2024-02-02T09:49:53Z\", \"lastModifiedDateTime\": \"2024-02-02T09:51:19Z\", \"changeKey\": \"ieiohjdskj\", \"categories\": [], \"receivedDateTime\": \"2024-02-02T09:49:54Z\", \"sentDateTime\": \"2024-02-02T09:49:54Z\", \"hasAttachments\": true, \"internetMessageId\": \"<xyz>\", \"subject\": \"xxxx\", \"bodyPreview\": \"Mail Action body\", \"importance\": \"normal\", \"parentFolderId\": \"ddd==\", \"conversationId\": \"dagazz=\", \"conversationIndex\": \"daf+UJo/clVcxTQ==\", \"isDeliveryReceiptRequested\": false, \"isReadReceiptRequested\": false, \"isRead\": true, \"isDraft\": false, \"webLink\": \"https://www.example.com/about\", \"inferenceClassification\": \"focused\", \"body\": {\"contentType\": \"text\", \"content\": \"Send Mail Action body\"}, \"sender\": {\"emailAddress\": {\"name\": \"wdzd\", \"address\": \"sample@s.com\"}}, \"from\": {\"emailAddress\": {\"name\": \"safd\", \"address\": \"xxx\"}}, \"toRecipients\": [{\"emailAddress\": {\"name\": \"xx\", \"address\": \"aef\"}}], \"ccRecipients\": [{\"emailAddress\": {\"name\": \"as\", \"address\": \"kdaw\"}}], \"bccRecipients\": [{\"emailAddress\": {\"name\": \"xxsf\", \"address\": \"wf\"}}], \"replyTo\": [], \"uniqueBody\": {\"contentType\": \"html\", \"content\": \"Mail Action body\"}, \"flag\": {\"flagStatus\": \"notFlagged\"}}",
+            "displayResult": true
+        }
+    ],
+    "parameters": [
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1376,
+            "mandatory": false,
+            "defaultValue": "Inbox",
+            "displayName": "Folder Name",
+            "description": "A mailbox folder in which to search for an email. To specify a subfolder, use the \u201c/\u201d forward slash, such as {Inbox/Subfolder}.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1377,
+            "mandatory": true,
+            "defaultValue": "",
+            "displayName": "Subject",
+            "description": "The email subject.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1378,
+            "mandatory": true,
+            "defaultValue": "",
+            "displayName": "Send to",
+            "description": "A comma-separated list of email addresses for the email recipients, such as user1@example.com, user2@example.com.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1379,
+            "mandatory": false,
+            "defaultValue": "",
+            "displayName": "CC",
+            "description": "A comma-separated list of email addresses for the email CC field, such as user1@example.com, user2@example.com.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1380,
+            "mandatory": false,
+            "defaultValue": "",
+            "displayName": "BCC",
+            "description": "A comma-separated list of email addresses for the email BCC field, such as user1@example.com, user2@example.com.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1381,
+            "mandatory": false,
+            "defaultValue": "",
+            "displayName": "Attachments Paths",
+            "description": "A comma-separated list of paths for file attachments stored on the server, for example, /{FILE_DIRECTORY}/file.pdf, /{FILE_DIRECTORY}/image.jpg.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1382,
+            "mandatory": true,
+            "defaultValue": "",
+            "displayName": "Mail Content",
+            "description": "The email body.",
+            "optionalValues": []
+        },
+        {
+            "type": "List",
+            "actionId": 455,
+            "id": 1383,
+            "mandatory": true,
+            "defaultValue": "GCP Bucket",
+            "displayName": "Attachment Location",
+            "description": "A location where the attachments are stored. By default, the action attempts to upload attachments from the Cloud Storage bucket. The possible values are GCP Bucket or Local File System. The default value is GCP Bucket.",
+            "optionalValues": [
+                "GCP Bucket",
+                "Local File System"
+            ]
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1374,
+            "mandatory": true,
+            "defaultValue": "Default Mailbox",
+            "displayName": "Send From",
+            "description": "An optional email address from which to send an email if permissions allow it. By default, the email is sent from the default mailbox that is specified in the integration configuration.",
+            "optionalValues": []
+        },
+        {
+            "type": "String",
+            "actionId": 455,
+            "id": 1375,
+            "mandatory": true,
+            "defaultValue": "",
+            "displayName": "Mail ID",
+            "description": "The email ID or the internetMessageId value of the email to forward.",
+            "optionalValues": []
+        }
+    ],
+    "aiCategories": [],
+    "entityTypes": [],
+    "outcomeCategories": [],
+    "Name": "1PCopy of Forward Email",
+    "DisplayName": "1PCopy of Forward Email"
+}
